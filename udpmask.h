@@ -6,9 +6,9 @@
 
 #define UM_SERVER_PORT  51194
 #define UM_CLIENT_PORT  61194
-#define UM_MAX_CLIENT   16
+#define UM_MAX_CLIENT   8192
 #define UM_BUFFER       65507
-#define UM_TIMEOUT      300     // socket clean up timeout
+#define UM_TIMEOUT      5     // socket clean up timeout
 #define UM_HOST_TIMEOUT 60      // dns lookup cache timeout
 
 #define TIME_INVALID    (time_t) -1
